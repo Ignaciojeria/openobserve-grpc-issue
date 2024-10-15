@@ -1,0 +1,35 @@
+{
+    "project": "multi-folder-components",
+    "template": {
+        "tag": "v2.8.0",
+        "url": "https://github.com/Ignaciojeria/einar-cli-template-v2"
+    },
+    "installations": [
+        {
+            "name": "labstack-echo",
+            "libraries": null
+        },
+        {
+            "name": "observability",
+            "libraries": null
+        }
+    ],
+    "components": [
+        {
+            "kind": "post-controller",
+            "name": "orders/create-order"
+        },
+        {
+            "kind": "post-controller",
+            "name": "payments/create-payment-request"
+        },
+        {
+            "kind": "post-controller",
+            "name": "customers/create-customer"
+        },
+        {
+            "kind": "get-controller",
+            "name": "customers/testing-obs"
+        }
+    ]
+}
